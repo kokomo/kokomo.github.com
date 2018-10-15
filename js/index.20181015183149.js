@@ -6,9 +6,9 @@ $(document).ready(function() {
 r=function(){dpi=window.devicePixelRatio;$('.js7').attr('src', (dpi>1) ? 'images/mountains-1862.png' : 'images/mountains-931.png');
 $('.js9').attr('src', (dpi>1) ? 'images/flower_2-168.png' : 'images/flower_2-84.png');
 $('.js10').attr('src', (dpi>1) ? 'images/flower_1-168.png' : 'images/flower_1-84.png');
-$('.js11').attr('src', (dpi>1) ? 'images/flower_3-168.png' : 'images/flower_3-84.png');
-$('.js12').attr('src', (dpi>1) ? 'images/flower_1-168.png' : 'images/flower_1-84.png');
-$('.js13').attr('src', (dpi>1) ? 'images/flower_2-168.png' : 'images/flower_2-84.png');
+$('.js11').attr('src', (dpi>1) ? 'images/flower_1-168.png' : 'images/flower_1-84.png');
+$('.js12').attr('src', (dpi>1) ? 'images/flower_2-168.png' : 'images/flower_2-84.png');
+$('.js13').attr('src', (dpi>1) ? 'images/flower_3-168.png' : 'images/flower_3-84.png');
 
 $('.js16').attr('src', (dpi>1) ? 'images/mountains_2-1910.png' : 'images/mountains_2-955.png');
 

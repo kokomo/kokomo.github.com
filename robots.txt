@@ -1,2 +1,4 @@
 User-agent: *
 Disallow:
+
+Sitemap: https://kokomo.github.com/sitemap.xml

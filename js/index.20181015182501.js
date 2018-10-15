@@ -3,16 +3,14 @@ $.fn.hasAttr = function(name) { var attr = $(this).attr(name); return typeof att
 
 
 $(document).ready(function() {
-r=function(){dpi=window.devicePixelRatio;$('.js3').attr('src', (dpi>1) ? 'images/nube1-400.png' : 'images/nube1-200.png');
-$('.js6').attr('src', (dpi>1) ? 'images/nube1-400.png' : 'images/nube1-200.png');
-$('.js7').attr('src', (dpi>1) ? 'images/mountains-1862.png' : 'images/mountains-931.png');
+r=function(){dpi=window.devicePixelRatio;$('.js7').attr('src', (dpi>1) ? 'images/mountains-1862.png' : 'images/mountains-931.png');
 $('.js9').attr('src', (dpi>1) ? 'images/flower_2-168.png' : 'images/flower_2-84.png');
 $('.js10').attr('src', (dpi>1) ? 'images/flower_1-168.png' : 'images/flower_1-84.png');
-$('.js11').attr('src', (dpi>1) ? 'images/nube1-400.png' : 'images/nube1-200.png');
+
 $('.js12').attr('src', (dpi>1) ? 'images/flower_3-168.png' : 'images/flower_3-84.png');
 $('.js13').attr('src', (dpi>1) ? 'images/flower_1-168.png' : 'images/flower_1-84.png');
 $('.js14').attr('src', (dpi>1) ? 'images/flower_2-168.png' : 'images/flower_2-84.png');
-$('.js15').attr('src', (dpi>1) ? 'images/nube1-400.png' : 'images/nube1-200.png');
+
 $('.js16').attr('src', (dpi>1) ? 'images/mountains_2-1910.png' : 'images/mountains_2-955.png');
 $('.js19').attr('src', (dpi>1) ? 'images/boyfriend_2-88.png' : 'images/boyfriend_2-44.png');
 $('.js20').attr('src', (dpi>1) ? 'images/boyfriend-88.png' : 'images/boyfriend-44.png');
@@ -20,20 +18,21 @@ $('.js21').attr('src', (dpi>1) ? 'images/church-250.png' : 'images/church-125.pn
 $('.js24').attr('src', (dpi>1) ? 'images/music-132.png' : 'images/music-66.png');
 $('.js25').attr('src', (dpi>1) ? 'images/house-220.png' : 'images/house-110.png');
 $('.js26').attr('src', (dpi>1) ? 'images/music_2-104.png' : 'images/music_2-52.png');
-$('.js27').attr('src', (dpi>1) ? 'images/nube1-400.png' : 'images/nube1-200.png');
-$('.js28').attr('src', (dpi>1) ? 'images/hotel-396.png' : 'images/hotel-198.png');
-$('.js29').attr('src', (dpi>1) ? 'images/nube1-400.png' : 'images/nube1-200.png');
 
-$('.js31').attr('src', (dpi>1) ? 'images/regalo-316.png' : 'images/regalo-158.png');
-$('.js32').attr('src', (dpi>1) ? 'images/regalo-186.png' : 'images/regalo-93.png');
+
+$('.js29').attr('src', (dpi>1) ? 'images/hotel-396.png' : 'images/hotel-198.png');
+$('.js30').attr('src', (dpi>1) ? 'images/nube1-400-544.png' : 'images/nube1-400-272.png');
+
+$('.js32').attr('src', (dpi>1) ? 'images/regalo-316.png' : 'images/regalo-158.png');
 $('.js33').attr('src', (dpi>1) ? 'images/regalo-210.png' : 'images/regalo-105.png');
-$('.js34').attr('src', (dpi>1) ? 'images/regalo-242.png' : 'images/regalo-121.png');
-$('.js35').attr('src', (dpi>1) ? 'images/confirm-1328.png' : 'images/confirm-664.png');};
+$('.js34').attr('src', (dpi>1) ? 'images/regalo-124.png' : 'images/regalo-62.png');
+$('.js35').attr('src', (dpi>1) ? 'images/regalo-158.png' : 'images/regalo-79.png');
+$('.js36').attr('src', (dpi>1) ? 'images/confirm-1004.png' : 'images/confirm-502.png');};
 if(!window.HTMLPictureElement){r();}
 (function(){$('a[href^="#"]:not(.allowConsent,.noConsent,.denyConsent,.removeConsent)').each(function(){$(this).click(function(){var t=this.hash.length>1?$('[name="'+this.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
-$('form').h5Validate();setTimeout(function(){$('.js36').prop('disabled',false);$("input[name='vobotbcs']").attr('value', 'pcgbsnudoiwsid');},1000);
+$('form').h5Validate();setTimeout(function(){$('.js37').prop('disabled',false);$("input[name='pbrofsn']").attr('value', 'rhkemjnbryftky');},1000);
 initMenu($('#m1')[0]);
-$('.c55').Stickyfill();
+$('.c56').Stickyfill();
 var wl = new woolite();
 wl.init();
 wl.addAnimation($('.js')[0], "1.00s", "0.00s", 1, 100);
@@ -71,6 +70,7 @@ wl.addAnimation($('.js32')[0], "1.00s", "0.00s", 1, 100);
 wl.addAnimation($('.js33')[0], "1.00s", "0.00s", 1, 100);
 wl.addAnimation($('.js34')[0], "1.00s", "0.00s", 1, 100);
 wl.addAnimation($('.js35')[0], "1.00s", "0.00s", 1, 100);
+wl.addAnimation($('.js36')[0], "1.00s", "0.00s", 1, 100);
 wl.start();
 
 });
